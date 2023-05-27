@@ -1,0 +1,42 @@
+theme = "icy"
+
+[editor]
+gutters = [ "diff", "spacer", "line-numbers", "spacer", "diagnostics" ]
+line-number = "relative"
+scrolloff = 999
+bufferline = "multiple"
+cursorline = true
+color-modes = true
+auto-save = true
+true-color = true
+
+[editor.cursor-shape]
+normal = "block"
+insert = "bar"
+select = "underline"
+
+[editor.statusline]
+left = ["mode", "spinner", "diagnostics"]
+right = ["position", "version-control", "file-encoding", "file-type"]
+
+[editor.soft-wrap]
+enable = true
+max-wrap = 25
+max-indent-retain = 0
+wrap-indicator = ""
+
+[editor.indent-guides]
+render = true
+character = "│" 
+skip-levels = 2
+
+[editor.lsp]
+display-inlay-hints = true
+display-messages = true
+
+[keys.normal]
+X = "extend_line_above"
+ret = ["move_line_down", "goto_line_start"]
+C-j = ["extend_to_line_bounds", "delete_selection", "paste_after"]
+C-k = ["extend_to_line_bounds", "delete_selection", "move_line_up", "paste_before"]
+

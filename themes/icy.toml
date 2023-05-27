@@ -1,0 +1,27 @@
+inherits = "base16_transparent"
+
+"ui.cursor.primary" = { fg = "coral-cyan", bg = "med-cyan", modifiers = ["bold"] }
+"ui.selection" = { fg = "select-cyan-fg", bg = "select-cyan-bg", modifiers = [ "italic" ] }
+"ui.cursorline.primary" = { bg = "deep-cyan" }
+
+"ui.linenr" = { modifiers = ["dim"] }
+"ui.linenr.selected" = { fg = "med-cyan", modifiers = [ "bold" ] }
+
+"ui.virtual.whitespace" = { fg = "dark-cyan" }
+"ui.statusline" = { fg = "bright-cyan", bg = "darker-cyan", modifiers = [ "bold" ] }
+
+[palette]
+coral-cyan = "#EAA89B" 
+deep-cyan = "#001C20" 
+
+select-cyan-fg= "#008B8B" # Yes.
+select-cyan-bg = "#0A1B1E"
+
+med-cyan = "#095B67"
+darker-cyan= "#071619"
+dark-cyan = "#192C32"
+bright-cyan = "#86B6BB"
+
+# god = "#002FA7"
+
+
