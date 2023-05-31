@@ -1,7 +1,8 @@
 theme = "icy"
 
 [editor]
-gutters = [ "diff", "spacer", "line-numbers", "spacer", "diagnostics" ]
+# I likes my space.
+gutters = [ "diff", "spacer", "line-numbers", "spacer", "spacer", "diagnostics", "spacer" ]
 line-number = "relative"
 scrolloff = 999
 bufferline = "multiple"
@@ -39,4 +40,3 @@ X = "extend_line_above"
 ret = ["move_line_down", "goto_line_start"]
 C-j = ["extend_to_line_bounds", "delete_selection", "paste_after"]
 C-k = ["extend_to_line_bounds", "delete_selection", "move_line_up", "paste_before"]
-
